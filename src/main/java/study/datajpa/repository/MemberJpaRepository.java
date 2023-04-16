@@ -12,6 +12,7 @@ public class MemberJpaRepository {
     private EntityManager em;
 
     public Member save(Member member) {
+        //주석
         em.persist(member);
         return member;
     }
